@@ -23,7 +23,6 @@ interface LayoutState {
     providedIn: 'root',
 })
 export class LayoutService {
-
     config: AppConfig = {
         ripple: false,
         inputStyle: 'outlined',
@@ -39,7 +38,7 @@ export class LayoutService {
         profileSidebarVisible: false,
         configSidebarVisible: false,
         staticMenuMobileActive: false,
-        menuHoverActive: false
+        menuHoverActive: false,
     };
 
     private configUpdate = new Subject<AppConfig>();
@@ -59,14 +58,7 @@ export class LayoutService {
         }
 
         if (this.isDesktop()) {
-            this.state.staticMenuDesktopInactive = !this.state.staticMenuDesktopInactive;
-        }
-        else {
-            this.state.staticMenuMobileActive = !this.state.staticMenuMobileActive;
-
-            if (this.state.staticMenuMobileActive) {
-                this.overlayOpen.next(null);
-            }
+            this.state.staticMenuDesktopInactive = false;
         }
     }
 
@@ -96,5 +88,4 @@ export class LayoutService {
     onConfigUpdate() {
         this.configUpdate.next(this.config);
     }
-
 }

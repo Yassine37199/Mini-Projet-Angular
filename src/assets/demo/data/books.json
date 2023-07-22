@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "id": "9780679774385",
+            "intitule": "To Kill a Mockingbird",
+            "auteur": "Harper Lee",
+            "editeur": "Vintage Books",
+            "published_date": "1960-07-11"
+        },
+        {
+            "id": "9780142437207",
+            "intitule": "Pride and Prejudice",
+            "auteur": "Jane Austen",
+            "editeur": "Penguin Classics",
+            "published_date": "1813-01-28"
+        },
+        {
+            "id": "9780061120084",
+            "intitule": "The Great Gatsby",
+            "auteur": "F. Scott Fitzgerald",
+            "editeur": "Scribner",
+            "published_date": "1925-04-10"
+        },
+        {
+            "id": "9780451524935",
+            "intitule": "1984",
+            "auteur": "George Orwell",
+            "editeur": "Signet Classics",
+            "published_date": "1949-06-08"
+        },
+        {
+            "id": "9780062315007",
+            "intitule": "The Catcher in the Rye",
+            "auteur": "J.D. Salinger",
+            "editeur": "Little, Brown and Company",
+            "published_date": "1951-07-16"
+        },
+        {
+            "id": "9780060256654",
+            "intitule": "Where the Wild Things Are",
+            "auteur": "Maurice Sendak",
+            "editeur": "Harper & Row",
+            "published_date": "1963-04-01"
+        },
+        {
+            "id": "9781451673319",
+            "intitule": "The Fault in Our Stars",
+            "auteur": "John Green",
+            "editeur": "Dutton Books",
+            "published_date": "2012-01-10"
+        },
+        {
+            "id": "9780061122415",
+            "intitule": "To Kill a Mockingbird",
+            "auteur": "Harper Lee",
+            "editeur": "Harper Perennial Modern Classics",
+            "published_date": "2006-10-11"
+        },
+        {
+            "id": "9780141182605",
+            "intitule": "Animal Farm",
+            "auteur": "George Orwell",
+            "editeur": "Penguin Classics",
+            "published_date": "1945-08-17"
+        },
+        {
+            "id": "9781400079988",
+            "intitule": "The Kite Runner",
+            "auteur": "Khaled Hosseini",
+            "editeur": "Riverhead Books",
+            "published_date": "2003-05-29"
+        },
+        {
+            "id": "9780061120085",
+            "intitule": "The Great Gatsby",
+            "auteur": "F. Scott Fitzgerald",
+            "editeur": "Scribner",
+            "published_date": "2004-09-30"
+        }
+    ]
+}
